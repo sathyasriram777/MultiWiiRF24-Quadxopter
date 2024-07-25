@@ -66,7 +66,7 @@ moveUp(){
   analogWrite(motor4B, 0);
 }
 
-moveUp(){
+moveDown(){
   analogWrite(motor1A, speed-50);
   analogWrite(motor1B, 0);
   analogWrite(motor2A, speed-50);
@@ -75,5 +75,4 @@ moveUp(){
   analogWrite(motor3B, 0);
   analogWrite(motor4A, speed-50);
   analogWrite(motor4B, 0);
-}
 }
